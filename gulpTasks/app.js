@@ -17,7 +17,7 @@ gulp.task('app.css', () => {
   return gulp.src('app/**/*.css')
   .pipe(uglifycss({ "uglifyComments": true }))
   .pipe(concat('app.min.css'))
-  .pipe(gulp.dest('public/asstes/css'));
+  .pipe(gulp.dest('public/assets/css'));
 });
 
 gulp.task('app.js', () => {
