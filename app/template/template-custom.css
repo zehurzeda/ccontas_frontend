@@ -7,3 +7,7 @@
 .pull-right {
   transition: .5s;
 }
+
+html {
+  background-color: #ecf0f5;
+}
